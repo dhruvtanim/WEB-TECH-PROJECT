@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    
+    color: #151111;
+}
+body{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    background: #003b3b;
+    color: #ffffff;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 10px;    
+}
+
+nav{
+    flex-basis: 80%;
+    max-width: 80%;
+
+}
+
+nav ul{
+    display: flex;
+    padding: 0;
+    margin-right: 20px;
+    justify-content: flex-end;
+}
+
+
+nav ul li{
+    list-style-type: none;
+    margin-right: 5px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 13px 35px;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+nav ul li a:hover {
+    background-color: #001a1a;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+.middle-content{
+    margin-right: 100px;
+}
+.Title-section ,.container {
+    padding: 31px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.Title-section h1,.loginContent h2 {
+    font-size: 63px;
+    font-weight: 600;
+    color: #fff;
+    padding: 85px 0px 35px 0px;
+}
+
+
+.Title-section p {
+    font-size: 29px;
+    font-weight: 500;
+    color: #fff;
+    margin: 45px 0px 30px;
+    padding-bottom: 88px;
+}
+
+.Title-section button:hover {
+    border: 1px solid #c55a11;
+    background: #001a1a;
+    color: #fff;
+}

@@ -1,0 +1,332 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+a{
+   
+    color: #151111;
+}
+body{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    background: #003b3b;
+    color: #ffffff;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 10px;    
+}
+
+nav{
+    flex-basis: 80%;
+    max-width: 80%;
+
+}
+
+nav ul,.footer ul{
+    display: flex;
+    padding: 0;
+    margin-right: 20px;
+    justify-content: flex-end;
+}
+.login_btn{
+	justify-content: center;
+}
+.login_btn li{
+	margin-top: 9px;
+    margin-left: 194px;
+}
+.footer ul{
+    display: block !important;
+}
+nav ul li, .footer li{
+    list-style-type: none;
+    margin-right: 5px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+nav ul li a,.dropbtn,.logoutBtn {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 13px 35px;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+nav ul li a:hover,.btn:hover,.logoutButton a:hover,.back a:hover {
+    background-color: #001a1a;
+    border-radius: 5px;
+    color: #ffffff;
+}
+.logoutButton a:hover{
+    border: 1px solid #c55a11;
+}
+nav ul li:hover{
+    border: 1px solid #c55a11;
+}
+
+.middle-content{
+    margin-right: 100px;
+}
+
+
+
+.title-section .container {
+    padding: 31px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.title-section h1,.loginContent h2 {
+    font-size: 63px;
+    font-weight: 600;
+    color: #fff;
+    padding: 85px 0px 35px 0px;
+}
+.title-section span {
+    width: 100%;
+    height: 2px;
+    background: #003b3b;
+    display: block;
+}
+
+.title-section p {
+    font-size: 29px;
+    font-weight: 500;
+    color: #fff;
+    margin: 45px 0px 30px;
+    padding-bottom: 88px;
+}
+.btn {
+    border: 1px solid #003b3b;
+    background: #fffefe3b;
+    margin: 10px;
+    color: #f9ffff;
+    font-weight: 500;
+    color: #fff;
+    border-radius: 5px;
+    padding: 13px 35px;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+}
+.title-section button:hover,.forgotPass:hover,.back:hover,.submitButton:hover {
+    border: 1px solid #c55a11;
+    background: #001a1a;
+    color: #fff;
+}
+
+.footer{
+    background: #ffffff78;  
+}
+.footer .container{
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+
+.loginClass{
+    flex-basis: 30%;
+    max-width: 30%;
+    margin: 30px 0px 30px 40px;
+    padding: 30px;
+    background: #002727;
+    border-radius: 20px;
+}
+.loginClass h1,.addCourseClass h1{
+    margin-bottom: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: center;
+}
+.loginForm,.addCourseForm,.addInstactorForm,.companyApprovalForm{
+    text-align: left;
+}
+.loginForm input,.addCourseForm input[type=text],.addCourseForm input[type=number],
+.addCourseForm textarea,.addInstactorForm input[type=text],.addInstactorForm input[type=password]
+{
+
+padding: 10px 0px 10px 5px;
+
+margin: 10px 5px 15px 0px;
+
+width: 100%;
+}
+.loginForm label,.addCourseForm label,.addInstactorForm label,.companyApprovalForm label{
+
+    font-size: 18px;
+}
+.submitButton{
+    justify-content: center;
+    margin-left: 6px !important;
+}
+.forgotPass,.back{
+
+margin-bottom: 10px;
+}
+.forgotPass a,.back a{
+
+color: #fff;
+}
+.loginFooter{
+    
+margin: 45px 0px 0px 0px;
+    
+display: flex;
+}
+.loginContent{
+    flex-basis: 50%;
+    max-width: 50%;
+    text-align: left;
+    padding-left: 75px;
+}
+.loginContent h2{
+
+padding: 30px 0px 10px 0px;
+}
+
+
+
+.addSection,.viewSection{
+    flex-basis: 40%;
+    max-width: 40%;
+    margin: 30px 0px 30px 40px;
+    padding: 30px;
+    background: #002727;
+    border-radius: 20px;
+}
+.addSection{
+    padding: 63px 0px 63px 0px;
+}
+.addSection h1{
+    padding: 0px 0px 30px 0px;
+}
+.viewSection{
+
+}
+
+.viewSection h1{
+
+padding: 0px 0px 30px 0px;
+}
+.addSection a,.viewSection a{
+    color: #fff;
+}
+.logoutButton,.backButton{
+    display: flex;
+    justify-content: center;
+}
+.logoutButton h3,.backButton h3{
+    padding-top: 10px;
+}
+.logoutButton a,.backButton a{
+    margin-left: 12px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    padding: 10px;
+}
+.addCourseClass,.addInstactorClass,.approveCompanyClass,.viewCompanyClass,
+.viewCourseClass,.viewLernerClass,.viewInstactorClass{
+    padding: 20px;
+    flex-basis: 35%;
+    max-width: 100%;
+    margin: auto;
+    margin-top: 47px;
+    background: #ffffff30;
+    border-radius: 10px;
+}
+.addCourseForm{
+
+}
+.addCourseForm input[type=radio]{
+
+margin: 15px 5px 20px 10px;
+
+height: 20px;
+
+width: 20px;
+
+vertical-align: middle;
+}
+.addCourseForm input[type=file]{
+
+margin: 5px 5px 5px 10px;
+
+padding: 5px 30px 10px 5px;
+}
+.addCourseForm input[type=submit]{
+
+margin-left: 40px !important;
+}
+.addCourseForm input[type=reset]{
+}
+.addCourseForm textarea{
+    
+font-family: 'Lato', sans-serif;
+    
+font-size: 16px;
+    
+height: 80px;
+}
+.addCourseBack{
+
+}
+.addCourseBack h3,.addInstactorBack h3,.companyList h3,.courseList h3,.instactorList h3,.lernerList h3{
+    
+padding-top: 19px;
+}
+.addCourseBack a{
+
+background: transparent;
+}
+.addInstactorForm input[type=submit]{
+margin-left: 25px !important;
+}
+.searchBar{
+        flex-basis: 80%;
+    max-width: 100%;
+}
+
+.companyApproval table tbody tr td,.companyApproval table tbody tr th,.companyList table tbody tr th,
+.companyList table tbody tr td,.courseList table tbody tr th,.courseList table tbody tr td,.instactorList table tbody tr th,
+.instactorList table tbody tr td,.lernerList table tbody tr th,.lernerList table tbody tr td{
+    padding: 5px 20px;
+    text-align: left;
+}
+.companyApproval,.companyList,.courseList,.instactorList,.lernerList{
+    
+margin: 30px 30px;
+}
+.companyApprovalForm{
+    
+display: flex;
+}
+
+.companyApprovalForm input[type=text]{
+
+padding: 0px 33px !important;
+
+margin: 14px 0px 14px 0px;
+}
+.companyApprovalForm .btn{
+
+margin: 12px 0px 12px 0px;
+
+padding: 10px 10px;
+}
+.companyList table{
+    padding-left: 50px;
+}
+.addViewCompanyBack{
+    margin-top: 60px;
+}
